@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Montserrat:wght@200;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Kanit', sans-serif;
+}
+
+body {
+  align-items: center;
+}
+
+body #container {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url('imgs/lady-headphones.jpg');
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 7vh;
+  background-color: rgba(0, 0, 0, 0.7)
+}
+
+header #pages {
+  align-items: center;
+  color: white;
+}
+
+header #pages a {
+  text-decoration: none;
+  color: white;
+  padding-inline: 10px;
+  font-weight: bold;
+}
+
+header #pages a:hover {
+  color: rgba(33, 183, 80);
+}
+
+header span {
+  padding-inline: 7px;
+}
+
+header img {
+  width: 100px;
+}
+
+main {
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+main h1 {
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main h2 {
+  font-weight: 500;
+  font-size: 18px;
+  padding-top: 4px;
+}
+
+main button {
+  background-color: rgba(33, 183, 80);
+  border: none;
+  width: 256px;
+  height: 40px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+main button:hover {
+  background-color: rgb(16, 115, 48);
+}
+
+main a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+footer {
+  height: 45vh;
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  color: rgb(97, 104, 102);
+  font-weight: bolder;
+}
+
+footer img {
+  width: 90px;
+}
+
+footer>#sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#sections div {
+  display: flex;
+  flex-direction: column;
+  margin-inline: 40px;
+
+}
+
+#sections div a {
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+}
+
+#sections div a:hover {
+  color: rgba(33, 183, 80);
+  ;
+}
+
+#sections #social-medias {
+  display: flex;
+  flex-direction: row;
+}
+
+#sections #social-medias a {
+  /* margin-left: 25px; */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+  border-radius: 50%;
+  background-color: rgb(33, 37, 36);
+  ;
+}
+
+#sections #social-medias a:hover {
+  background-color: rgb(31, 215, 97);
+  ;
+}
+
+#sections #social-medias img {
+  width: 20px;
+}
+
+#container-footer {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-inline: 15vw; */
+
+
+}
+
+#container-footer a {
+  text-decoration: none;
+  color: rgb(172, 172, 172);
+  font-weight: lighter;
+  font-size: 13px;
+
+}
+
+#container-footer div a {
+  margin-right: 10px;
+}
+
+#container-footer div a:hover {
+  color: rgb(31, 215, 97);
+}
+
+#container-footer #year {
+  margin-left: 20vw;
+}
